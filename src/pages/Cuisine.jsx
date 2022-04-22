@@ -38,7 +38,7 @@ const Grid = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
     text-align: center;
-    margin: 3rem 4rem;
+    margin: 3rem;
 `;
 
 const Card = styled.div`

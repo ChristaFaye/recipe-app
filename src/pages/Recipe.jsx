@@ -61,11 +61,13 @@ function Recipe() {
 
 
 const DetailWrapper = styled.div`
-    margin: 10rem 10rem;
+    margin: 5rem 5rem;
     display: flex;
+    text-align: justify;
+    justify-content: center;
 
     .active {
-        background-image: linear-gradient(35deg, #494949, #333);
+        background-color: #400105;
         color: #fff;
     }
 
@@ -74,24 +76,27 @@ const DetailWrapper = styled.div`
     }
 
     ul {
-        margin-top: 2rem;
+        margin: 2rem 2rem;
     }
 
     li {
-        font-size: 1.25rem;
-        line-height: 2;
+        font-size: 1rem;
+        line-height: 1.2;
+        margin: 1rem 2rem;
+        
     }
+    
 
     p {
+        margin-top: 1rem;
         font-size: 1rem;
-        margin: 0.5rem;
-        // text-align: justify;
+        color: #333;
+        font-family: Calibri;
     }
 `;
 
 const Button = styled.button`
-    padding: 1rem 2rem;
-    margin-bottom: 1rem;
+    padding: 1em 2rem;
     color: #333;
     background-color: #fff;
     border: 2px solid #333;

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 function Veggie() {
-    const [Veggie, setVeggie] = useState([]);
+    const [veggie, setVeggie] = useState([]);
 
     useEffect(() => {
         getVeggie();
@@ -40,7 +40,7 @@ function Veggie() {
                         gap: "5rem",
                     }}
                 >
-                    {Veggie.map((recipe) => {
+                    {veggie.map((recipe) => {
                         return (
                             <SplideSlide key={recipe.id}>
                                 <Card>
