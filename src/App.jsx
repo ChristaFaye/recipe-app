@@ -40,10 +40,14 @@ const Logo = styled(Link)`
         height: auto;
         margin: auto;
     }
+    
+    @font-face {
+      font-family: "Water Brush";
+      src: url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap') format("woff2");
+    }
 
     h2 {
-        @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
-        font-family: Water Brush !important;
+        font-family: "Water Brush";
         font-size: 4rem;
         letter-spacing: 0.2rem;
         margin-top: 0.9rem;
