@@ -48,7 +48,7 @@ const Logo = styled(Link)`
         letter-spacing: 0.2rem;
         margin-top: 0.9rem;
         color: #fff;
-        text-shadow: 3px 3px #333;
+        // text-shadow: 3px 3px #333;
     }
 
 
