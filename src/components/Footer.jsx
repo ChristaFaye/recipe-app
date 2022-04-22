@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagramSquare, FaTwitter } from "react-icons/fa";
 function Footer() {
     return (
         <Foot>
-            <p>Copyright © Christa Faye Reyes 2022 | </p>
+            <p>Copyright | Christa Faye Reyes © 2022 | </p>
             <NLink>
                 <FaFacebook size={20}/>
             </NLink>
